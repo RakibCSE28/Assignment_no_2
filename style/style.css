@@ -212,7 +212,7 @@ iframe{
     .navbar{
         display: flex;
         align-items: center;
-        padding: 5px;
+        padding: 20px;
       
     }
     nav ul{
