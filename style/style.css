@@ -33,9 +33,9 @@ p{
     margin-right: 240px;
     margin-left: 240px;
 }
-/* .header-banner img{
+.header-banner img{
     width: 100%;
-} */
+}
 header{
     background-color:#FF900E1A;
     height: 1400px;
@@ -96,7 +96,7 @@ nav ul li{
 .second-features{
     display: flex;
     margin-top: 120px;
-    justify-content: space-between;
+    gap: 90px;
 }
 .head-des{
     border-left: #FF900E solid 10px;
@@ -176,7 +176,7 @@ nav ul li{
 /* iframe */
 iframe{
     margin-top: 50px;
-    margin-left: 200px;
+    margin-left: 120px;
     margin-right: 0px;
     position: relative;
 }
@@ -202,7 +202,6 @@ iframe{
         margin-left: 20px;
     }
     header{
-        margin: 0px;
         height: fit-content;
     }
     .header{
@@ -211,6 +210,7 @@ iframe{
     .navbar{
         display: flex;
         align-items: center;
+        padding: 5px;
       
     }
     nav ul{
