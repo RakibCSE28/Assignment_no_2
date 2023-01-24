@@ -87,7 +87,7 @@ nav ul li{
     align-items: center;
     
 }
-.features img{
+.features-img{
     margin: 24px;
 }
 /* Features you will love & enjoy section */
@@ -125,10 +125,10 @@ nav ul li{
 }
 /* some fact */
 
-.some-fact{
+/* .some-fact{
     margin-top: 130px;
 
-}
+} */
 .work-review{
     display: flex;
     justify-content: space-evenly;
@@ -157,14 +157,11 @@ nav ul li{
 .sponspors{
     display: flex;
     flex-direction: column;
-    margin-top: 150px;
     align-items: center;
 }
 .sponspors-des{
     margin-top: 50px;
     text-align: center;
-    width: 542px;
-    height: 129px;
 }
 .sponspors-img{
     margin-top: 70px;
@@ -189,4 +186,56 @@ nav ul li{
     border-radius: 8px;
     padding-top: 45px;
 }
+/* responsive style */
+@media screen and (max-width:688px) {
+    main, footer{
+        margin-top: 40px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .features{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .features img{
+        width: fit-content;
+    }
+    .fratures-details{
+        text-align: center;
+    }
+    /* second-features */
+    .second-features{
+        margin-top: 130px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .second-details{
+        width: 100%;
+    }
+    .features-img.second-features-img{
+        width: 100%;
+    }
+    .big-btn{
+        margin-left: 200px;
+    } 
+    .des-contain{
+        margin-top: 30px;
+    }
+    /* some fact */
 
+    .work-review{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .sponspors-des{
+        text-align: center;
+    }
+    .sponspors-img{
+        margin-top: 70px;
+        flex-direction: column;
+        align-items: center;
+        gap: 35px;
+    }
+}
