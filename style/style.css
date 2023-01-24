@@ -186,16 +186,4 @@ nav ul li{
     border-radius: 8px;
     padding-top: 45px;
 }
-/* responsive */
-@media screen and (max-width:688px) {
-    header{
-    
-        margin-right: 40px;
-        margin-left: 40px;
-    }
-    header{
-        background-color:#FF900E1A;
-        height: 1400px;
-    
-    }
-}
+
