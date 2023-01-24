@@ -34,7 +34,6 @@ p{
     margin-left: 240px;
 }
 .header-banner{
-    /* width: 100%; */
     width: 1440px;
     
 }
@@ -106,9 +105,9 @@ nav ul li{
 .second-details{
     width: 500px;
 }
-/* .second-features-img{
+.second-features-img{
     height: fit-content;
-} */
+}
 .des-contain{
     margin-top: 30px;
 }
