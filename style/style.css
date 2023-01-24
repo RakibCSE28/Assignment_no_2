@@ -34,7 +34,9 @@ p{
     margin-left: 240px;
 }
 .header-banner{
-    width: 100%;
+    /* width: 100%; */
+    width: 1440px;
+    
 }
 header{
     background-color:#FF900E1A;
@@ -96,7 +98,7 @@ nav ul li{
 .second-features{
     display: flex;
     margin-top: 120px;
-    gap: 90px;
+    justify-content: space-between;
 }
 .head-des{
     border-left: #FF900E solid 10px;
