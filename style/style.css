@@ -89,6 +89,8 @@ nav ul li{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
+    row-gap: 24px;
+    column-gap: 24px;
 }
 /* Features you will love & enjoy section */
 .second-features{
@@ -229,6 +231,7 @@ iframe{
     .first-features-img{
         grid-template-columns: repeat(1,1fr);
         align-items: center;
+
     }
     .features img{
         width: fit-content;
