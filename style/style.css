@@ -34,9 +34,7 @@ p{
     margin-left: 240px;
 }
 .header-banner{
-    /* width: 100%; */
-    width: 1440px;
-    
+    width: 100%;
 }
 header{
     background-color:#FF900E1A;
@@ -106,9 +104,9 @@ nav ul li{
 .second-details{
     width: 500px;
 }
-/* .second-features-img{
+.second-features-img{
     height: fit-content;
-} */
+}
 .des-contain{
     margin-top: 30px;
 }
@@ -212,7 +210,7 @@ iframe{
     .navbar{
         display: flex;
         align-items: center;
-        padding: 10px;
+        padding: 20px;
       
     }
     nav ul{
