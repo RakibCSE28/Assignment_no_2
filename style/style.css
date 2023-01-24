@@ -1,4 +1,4 @@
-main, footer{
+main, footer, iframe{
     margin-top: 85px;
     margin-right: 240px;
     margin-left: 240px;
@@ -33,9 +33,9 @@ p{
     margin-right: 240px;
     margin-left: 240px;
 }
-.header-banner img{
+/* .header-banner img{
     width: 100%;
-}
+} */
 header{
     background-color:#FF900E1A;
     height: 1400px;
@@ -71,9 +71,7 @@ nav ul li{
     margin-top: 102px;
 }
 .header-section{
-    width: 762px;
     text-align: center;
-    
 }
 .header-tittle{
     font-size: 65px;
@@ -87,20 +85,20 @@ nav ul li{
     align-items: center;
     
 }
-.features-img{
-    margin: 24px;
-}
 /* Features you will love & enjoy section */
 .second-features{
     display: flex;
-    margin-top: 130px;
+    margin-top: 120px;
     justify-content: space-between;
+}
+.head-des{
+    border-left: #FF900E solid 10px;
 }
 .second-details{
     width: 500px;
 }
 .second-features-img{
-    height: 1059px;
+    height: fit-content;
 }
 .des-contain{
     margin-top: 30px;
@@ -135,7 +133,7 @@ nav ul li{
     
 }
 .box{
-    margin-top: 100px;
+    margin-top: 50px;
     border: 1px solid #FF900E;
     width: 241.83px;
     height: 241.83px;
@@ -169,13 +167,16 @@ nav ul li{
     justify-content: space-around;
 }
 /* iframe */
+iframe{
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
 .iframe{
-    margin-top: 130px;
-    margin-left: 110px;
     display: grid;
     grid-template-columns:repeat(2, 1fr);
     row-gap: 24px;
-    
+    margin-left: 300px;
 }
 /* footer */
 .footer{
@@ -193,32 +194,56 @@ nav ul li{
         margin-right: 20px;
         margin-left: 20px;
     }
+    header{
+        margin: 0px;
+        height: fit-content;
+    }
+    .header{
+        margin: 0px;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+      
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    .header-banner{
+        width: 100%;
+    }
+    .banner{
+        text-align: center;
+    }
     .features{
+        margin-top: 50px;
         flex-direction: column;
         align-items: center;
         
     }
     .features img{
         width: fit-content;
+        
     }
     .fratures-details{
         text-align: center;
     }
     /* second-features */
     .second-features{
-        margin-top: 130px;
+        margin-top: 30px;
         flex-direction: column;
         align-items: center;
     }
     .second-details{
         width: 100%;
     }
-    .features-img.second-features-img{
+    .features-img{
         width: 100%;
+        height: fit-content;
     }
-    .big-btn{
-        margin-left: 200px;
-    } 
+    /* .big-btn{
+        margin-left:20px;
+    }  */
     .des-contain{
         margin-top: 30px;
     }
@@ -233,9 +258,18 @@ nav ul li{
         text-align: center;
     }
     .sponspors-img{
-        margin-top: 70px;
+        margin-top: 50px;
         flex-direction: column;
         align-items: center;
         gap: 35px;
+    }
+    .iframe{
+        margin-left: 0px;
+        margin-top: 50px;
+        grid-template-columns:repeat(1, 1fr); 
+        align-items: center;
+    }
+    .footer{
+        margin-top: 40px;
     }
 }
