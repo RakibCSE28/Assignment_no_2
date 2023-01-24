@@ -85,6 +85,11 @@ nav ul li{
     align-items: center;
     
 }
+.first-features-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
 /* Features you will love & enjoy section */
 .second-features{
     display: flex;
@@ -169,14 +174,14 @@ nav ul li{
 /* iframe */
 iframe{
     margin-top: 50px;
-    margin-left: 0px;
+    margin-left: 200px;
     margin-right: 0px;
+    position: relative;
 }
 .iframe{
     display: grid;
     grid-template-columns:repeat(2, 1fr);
     row-gap: 24px;
-    margin-left: 300px;
 }
 /* footer */
 .footer{
@@ -221,6 +226,10 @@ iframe{
         align-items: center;
         
     }
+    .first-features-img{
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+    }
     .features img{
         width: fit-content;
         
@@ -263,8 +272,11 @@ iframe{
         align-items: center;
         gap: 35px;
     }
-    .iframe{
+    iframe{
         margin-left: 0px;
+        margin-right: 0px;
+    }
+    .iframe{ 
         margin-top: 50px;
         grid-template-columns:repeat(1, 1fr); 
         align-items: center;
