@@ -38,7 +38,7 @@ p{
 }
 header{
     background-color:#FF900E1A;
-    height: 1400px;
+    height: 1200px;
 
 }
 .navbar{
@@ -96,7 +96,7 @@ nav ul li{
 .second-features{
     display: flex;
     margin-top: 120px;
-    justify-content: space-between;
+    gap: 85px;
 }
 .head-des{
     border-left: #FF900E solid 10px;
@@ -106,6 +106,7 @@ nav ul li{
 }
 .second-features-img{
     height: fit-content;
+    width: 800px;
 }
 .des-contain{
     margin-top: 30px;
@@ -233,10 +234,6 @@ iframe{
         align-items: center;
 
     }
-    .features img{
-        width: fit-content;
-        
-    }
     .fratures-details{
         text-align: center;
     }
@@ -253,9 +250,9 @@ iframe{
         width: 100%;
         height: fit-content;
     }
-    /* .big-btn{
-        margin-left:20px;
-    }  */
+    .big-btn{
+        margin-left:210px;
+    }
     .des-contain{
         margin-top: 30px;
     }
