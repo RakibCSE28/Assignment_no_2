@@ -96,17 +96,16 @@ nav ul li{
 .second-features{
     display: flex;
     margin-top: 120px;
-    gap: 150px;
+    justify-content: space-between;
 }
 .head-des{
     border-left: #FF900E solid 10px;
 }
-/* .second-details{
+.second-details{
     width: 500px;
-} */
+}
 .second-features-img{
     height: fit-content;
-    width: 800px;
 }
 .des-contain{
     margin-top: 30px;
@@ -234,6 +233,10 @@ iframe{
         align-items: center;
 
     }
+    .features img{
+        width: fit-content;
+        
+    }
     .fratures-details{
         text-align: center;
     }
@@ -250,9 +253,9 @@ iframe{
         width: 100%;
         height: fit-content;
     }
-    .big-btn{
-        margin-left:210px;
-    }
+    /* .big-btn{
+        margin-left:20px;
+    }  */
     .des-contain{
         margin-top: 30px;
     }
