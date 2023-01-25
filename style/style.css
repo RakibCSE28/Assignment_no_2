@@ -96,7 +96,7 @@ nav ul li{
 .second-features{
     display: flex;
     margin-top: 120px;
-    gap: 85px;
+    gap: 150px;
 }
 .head-des{
     border-left: #FF900E solid 10px;
